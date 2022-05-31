@@ -1,0 +1,74 @@
+.root{
+  --primary-text-color:#212121;
+  --title-text-color:#2196F3;
+  --accent-color:#FFFFFF;
+}
+
+
+.body{
+    background-color: 
+    color: var(--accent-color);
+    
+}
+.list{
+  list-style: none;}
+
+  .logo:hover {
+    color: #2196F3;;
+  }
+  
+      /* Site nav*/
+  
+ .site-nav .link {
+   color: var(--primary-text-color);
+ }
+    
+  .site-nav .link:hover ,
+   .site-nav .link:focus {
+     color: #2196F3;
+   }
+  
+   
+   
+   /*Hero*/
+   .hero-title {
+     color: var(--accent-color);
+     background-color: #212121;
+   }
+    /*Section*/
+    
+   .section-title {
+     color: var(--primary-text-color);
+   }
+    /* Features*/
+
+    .feature-list .title {
+      color: var(--primary-text-color);
+    }
+
+   /* Work*/
+
+   .work-title .list {
+     color:var(--primary-text-color;
+   }
+  
+    /* Team*/
+
+    .team-link .list {
+      color: var(--primary-text-color);
+    }
+     /*Adress*/
+
+     
+ 
+
+
+ 
+ 
+    /* белый цвет текста #FFFFFF */
+      /* вторичный цвет текста rgba(117, 117, 117, 1) */
+          /* цвет кнопок rgba(33, 33, 33, 1) */
+           /* акцент #2196F3;*/
+         /* цвет оглавления #212121;*/
+         /* контакты #757575 */ 
+         /* цвет контактов rgba(255, 255, 255, 0.6)*/
