@@ -10,41 +10,134 @@
     color: var(--accent-color);
     
 }
-.list{
-  list-style: none;}
+ .ul {
+  list-style: none;
+}
 
   .logo:hover {
-    color: #2196F3;;
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,19;
   }
+
+  .button-secondary:hover,
+  .button-secondary:focus{
+    color: #FFFFFF;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,87;
+  }
+
+  /*Contacts*/
+
   
+  .mail-link:hover,
+  .mail-link:focus{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+  }
+
+  .adress-link:hover,
+  .adress-link:focus{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;}
+
+  .tel-link:hover,
+  .tel-link:focus {
+   color: #212121;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1,71;}
+
+   .adress-link .mail-link .tel-link{
+     background-color: black;
+   }
       /* Site nav*/
   
  .site-nav .link {
    color: var(--primary-text-color);
- }
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+    line-height: 1,14;
+  }
     
   .site-nav .link:hover ,
    .site-nav .link:focus {
      color: #2196F3;
-   }
-  
-   
-   
+     font-family: inherit;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14;
+    }
    /*Hero*/
    .hero-title {
-     color: var(--accent-color);
+     color:#FFFFFF;
      background-color: #212121;
-   }
+     font-size: 44px;
+     line-height: 1,36;  
+     text-align: center;}
     /*Section*/
     
    .section-title {
      color: var(--primary-text-color);
-   }
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
     /* Features*/
 
     .feature-list .title {
       color: var(--primary-text-color);
-    }
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1,14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;}
+
+      .paragraph {
+       color: #212121;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 1,71;
+       }
+       .paragraph-title {
+         color: #212121;
+         font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,18; }
+
+      .paragraph-list{
+        color: #212121;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,87;}
+
 
    /* Work*/
 
@@ -57,7 +150,7 @@
     .team-link .list {
       color: var(--primary-text-color);
     }
-     /*Adress*/
+     /*Contact*/
 
      
  
