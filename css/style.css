@@ -5,170 +5,186 @@
 }
 
 
-.body{
-    background-color: 
-    color: var(--accent-color);
-    }
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6,
-   p{
-     margin: ;
-   }
-  
-   
-  
- 
+.body font-family : 'Roboto';{
+  background-color:var(--background-color);}
+
+    
+
   ul {
 
-  list-style: none;
-}
+  list-style: none;}
 
-  .logo:hover {
-    color: #2196F3;
+
+  .logo:hover, :focus{
+    color: var(--title-text-color);
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1,19;
-  }
+    line-height: 1,19; }
+  
 
-  .button-current:hover,
-  .button-current:focus{
-    color: #FFFFFF;
-
-    font-family: 'Roboto';
-    font-weight: 700;
+  .button-current,
+  .button-current{
+    color:var(--primary-text-color);
+    font-family : 'Roboto';
+    font-weight : 700;
     font-size: 16px;
-    line-height: 1,87;
-  }
+    line-height : 1,87; }
+  
 
   /*Contacts*/
 
   
-  .mail-link:hover,
-  .mail-link:focus{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
+  .header-mail{
+    color: var(--title-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-  }
-
-  .adress-link:hover,
-  .adress-link:focus{
-    color: #FFFFFF;
+    line-height: 1,71;} 
+  
+ 
+  .header-contact{
+    color: var(--background-color);
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1,71;}
-
-  .tel-link:hover,
-  .tel-link:focus {
-   color: #212121;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 1,71;}
-
-   .adress-link .mail-link .tel-link{
-     background-color: black;
-   }
+    line-height: 1,14; }
+  
+ 
+  
       /* Site nav*/
   
- .site-nav .link {
-   color: var(--primary-text-color);
+ 
+ .site-nav :hover, :focus {
+ color: var(--title-text-color);
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
     line-height: 1,14;
   }
+
     
-  .site-nav .link:hover ,
-   .site-nav .link:focus {
-     color: #2196F3;
-     font-family: inherit;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1,14;
-    }
    /*Hero*/
+   .hero {
+     background-color:  var(--background-color);
+   }
    .hero-title {
-     color:#FFFFFF;
-     background-color: #212121;
+     color:var(--primary-text-color);
      font-size: 44px;
      line-height: 1,36;  
      text-align: center;}
-    /*Section*/
-    
-   .section-title {
-     color: var(--primary-text-color);
-     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;}
-    /* Features*/
 
-    .feature-list .title {
-      color: var(--primary-text-color);
+     .button-current:hover
+     .button-cursor {
+      color: var(--title-text-color);
+    }
+    button{
+      background-color: var(--title-text-color);
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      line-height: 1,14;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;}
+      font-size: 16px;
+      line-height: 1,87;
 
-      .paragraph {
-       color: #212121;
+    }  
+    
+    /*Work*/
+    
+   .section-title {
+     color: var(--background-color);
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1,16;
+    }
+     .title{
+     color: var(--background-color);
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1,14;
+     }
+    .paragraph{
+      color: var(--background-color);
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1,71;
+
+    }
+    
+       /*Work */
+       .work{
+         color: var(--background-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,16;
+        }
+
+        .team {
+          color: var(--background-color);
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 1,16;
+      
+
+        }
+     
+      .team-title{
+        color: var(--background-color);
+        font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+        font-size: 16px;
+       line-height: 1,18;
+      
+
+      }
+       /*footer*/
+      .page-footer{
+        background-color: var(--background-color);
+      } 
+      
+     .logo-link{
+       color: var(--title-text-color);
+       font-family: 'Raleway';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1,19;
+     }
+     .addres-link{
+       color: var(--primary-text-color);
        font-family: 'Roboto';
        font-style: normal;
        font-weight: 400;
        font-size: 14px;
        line-height: 1,71;
-       }
-       .paragraph-title {
-         color: #212121;
-         font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,18; }
-
-      .paragraph-list{
-        color: #212121;
+     }
+      
+      .mail-link{
+        color: var(--primary-text-color);
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1,87;}
-
-
-   /* Work*/
-
-   .work-title .list {
-     color:var_--primary-text-color;
-   }
-  
-    /* Team*/
-    .team-link .list {
-      color: var(--primary-text-color);
-    }
-     /*Contact*/
-
-     
- 
-
-
- 
+        font-size: 14px;
+        line-height: 1,71;
+      }
+     .contact-link{
+       color: var(--primary-text-color);
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 1,71;
+     }
  
     /* белый цвет текста #FFFFFF */
       /* вторичный цвет текста rgba(117, 117, 117, 1) */
