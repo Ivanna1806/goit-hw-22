@@ -1,16 +1,29 @@
-.root{
-  --primary-text-color:#212121;
+ :root{
+  --primary-text-color:#FFFFFF;
   --title-text-color:#2196F3;
-  --accent-color:#FFFFFF;
+  --background-color: #212121;    
 }
 
 
 .body{
     background-color: 
     color: var(--accent-color);
-    
-}
- .ul {
+    }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p{
+     margin: ;
+   }
+  
+   
+  
+ 
+  ul {
+
   list-style: none;
 }
 
@@ -21,8 +34,8 @@
     line-height: 1,19;
   }
 
-  .button-secondary:hover,
-  .button-secondary:focus{
+  .button-current:hover,
+  .button-current:focus{
     color: #FFFFFF;
 
     font-family: 'Roboto';
@@ -142,11 +155,10 @@
    /* Work*/
 
    .work-title .list {
-     color:var(--primary-text-color;
+     color:var_--primary-text-color;
    }
   
     /* Team*/
-
     .team-link .list {
       color: var(--primary-text-color);
     }
