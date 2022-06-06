@@ -10,13 +10,31 @@
   
   
 }
+/* Написать , что такое Box size */
+
+*{
+  box-sizing: border-box; 
+
+  
+}
  button{
    cursor: pointer;
  }
  body{
   font-family : 'Roboto',sans-serif; 
   font-size: 18px;
+  margin: 0;
  } 
+ .container{
+   max-width: 1200px;
+   margin: 0;
+   padding: 64px;
+   
+  
+
+
+  
+ }
 
   h1,
  h2,
@@ -55,16 +73,15 @@
 
   ul {
 
-  list-style: none;}
+  list-style: none;
+}
 
   a{
     text-decoration: none;
     color: var(--background-color);
     font-size: 14px;
   }
-  :hover{
-    transition: 0.3;
-  }
+  
   .logo{
     color: var(--title-text-color);
     font-family: 'Raleway',sans-serif; 
@@ -80,6 +97,35 @@
 .logo-width {
   color: var(--primary-text-color);
 }
+.page-header{
+  display: flex;
+}
+.site-nav{
+  display: flex;
+  margin-left: 70px;
+}
+.site-nav .item {
+  margin-right: 32px;
+} 
+.saite-nav .link{
+  display: block;
+  padding-top: 32px ;
+  padding-bottom: 32px;
+
+}
+.page-header{
+  display: flex;
+  max-lines: auto ;
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  Width: 1600px
+
+}
+
 .primary-button{
   color:var(--primary-text-color);
   background-color: var(--title-text-color);
@@ -87,6 +133,12 @@
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  display: block;
 
 }
 
@@ -120,10 +172,20 @@
     line-height: 1.14;
   }
 
+  .contact{
+    display: flex;
+    margin-left: auto;
+  }
+   .contact .item {
+     margin-left: 50px;
     
+   }
+
    /*Hero*/
-   .hero {
+   .hero .container{
      background-color: #2F303A;
+     max-width: 1200;
+     margin: 0;
    }
    .hero-title {
      color:var(--primary-text-color);
@@ -144,6 +206,14 @@
       line-height: 1.87;
      } 
     
+     .feature-list{
+       display: flex;
+      flex-wrap: wrap;
+     }
+     .feature-list .atem .paragraph{
+       width: 300px;
+      
+     }
     /*Work*/
     
    .section-title {
@@ -222,11 +292,8 @@
         line-height: 24px;
         letter-spacing: 0.03em;
 }
-       .mail-footer{
-         color: rgba(255, 255, 255, 0.6);
-         font-size: 14px;
-         line-height: 24px;
-       }
+     
+       
       .phone-footer{
         color: rgba(255, 255, 255, 0.6);
         font-size: 14px;
