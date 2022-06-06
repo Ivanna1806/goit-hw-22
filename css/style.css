@@ -1,110 +1,165 @@
  :root{
-  --primary-text-color:#FFFFFF;
+
+  --background-color:  #212121;  
   --title-text-color:#2196F3;
-  --background-color: #212121;    
+  --primary-text-color: #FFFFFF; 
+  --main-color: #2F303A;
+  --whete-color: #FFFFFF;
+  --rgba(255, 255, 255, 0.6);
+  --rgba(255, 255, 255, 0.6);
+ 
+  
+  
 }
 
+ body{
+  font-family : 'Roboto'sans-serif; 
+  background-color: var(--primary-text-color);
+  color: var(--background-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 
-.body font-family : 'Roboto';{
-  background-color:var(--background-color);}
+ } 
 
-    
+  h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p{
+  margin: 0;
+ }
+ img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+ address{
+  font-size: normal;
+ }
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.link{
+  text-decoration: none;
+  letter-spacing: 0.03em;
+ //color: inherit; 
+
+ }
+
+ 
 
   ul {
 
   list-style: none;}
 
-
-  .logo:hover, :focus{
+  a{
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 14px;
+  }
+  :hover{
+    transition: 0.3;
+  }
+  .logo{
     color: var(--title-text-color);
     font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1,19; }
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
   
+ .logo-span{
+ color: var(--background-color);
+ }
+.logo-width {
+  color: var(--primary-text-color);
+}
+.primary-button{
+  color:var(--primary-text-color);
+  background-color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
 
-  .button-current,
-  .button-current{
-    color:var(--primary-text-color);
-    font-family : 'Roboto';
-    font-weight : 700;
+}
+
+  .secondary-button{
+    color:#212121;
     font-size: 16px;
-    line-height : 1,87; }
+    line-height : 1.87; }
+
+    .button{
+     color: var(--primary-text-color);
+     background-color: var(--title-text-color);
+    }
   
 
-  /*Contacts*/
+  /*Contact*/
 
   
-  .header-mail{
-    color: var(--title-text-color);
+  .addres-white .mail-white .phone-white{
+    color:var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;} 
-  
- 
-  .header-contact{
-    color: var(--background-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14; }
-  
- 
+    line-height: 1.71;} 
   
       /* Site nav*/
   
  
  .site-nav :hover, :focus {
  color: var(--title-text-color);
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 500;
    font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
   }
 
     
    /*Hero*/
    .hero {
-     background-color:  var(--background-color);
+     background-color: #2F303A;
    }
    .hero-title {
      color:var(--primary-text-color);
      font-size: 44px;
-     line-height: 1,36;  
-     text-align: center;}
-
-     .button-current:hover
-     .button-cursor {
-      color: var(--title-text-color);
+     line-height: 1.36;  
+     text-align: center;
+     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     }
-    button{
-      background-color: var(--title-text-color);
-      font-family: 'Roboto';
-      font-style: normal;
+  
+
+    .secondary-button :hover,:focus{
+      background-color: var(--main-color)
+      color: var(#2196F3);
       font-weight: 700;
       font-size: 16px;
-      line-height: 1,87;
-
-    }  
+      line-height: 1.87;
+     } 
     
     /*Work*/
     
    .section-title {
      color: var(--background-color);
-     font-family: 'Roboto';
-     font-style: normal;
      font-weight: 700;
      font-size: 36px;
-     line-height: 1,16;
+     line-height: 1.16;
     }
      .title{
      color: var(--background-color);
-     font-family: 'Roboto';
-     font-style: normal;
      font-weight: 700;
      font-size: 14px;
-     line-height: 1,14;
+     line-height: 1.14;
      }
     .paragraph{
       color: var(--background-color);
@@ -112,7 +167,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
-      line-height: 1,71;
+      line-height: 1.71;
 
     }
     
@@ -123,16 +178,14 @@
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1,16;
+        line-height: 1.16;
         }
 
         .team {
           color: var(--background-color);
-          font-family: 'Roboto';
-          font-style: normal;
           font-weight: 700;
           font-size: 36px;
-          line-height: 1,16;
+          line-height: 1.16;
       
 
         }
@@ -143,13 +196,13 @@
        font-style: normal;
        font-weight: 500;
         font-size: 16px;
-       line-height: 1,18;
+       line-height: 1.18;
       
 
       }
        /*footer*/
       .page-footer{
-        background-color: var(--background-color);
+        background-color: var(--main-color);
       } 
       
      .logo-link{
@@ -158,38 +211,34 @@
        font-style: normal;
        font-weight: 700;
        font-size: 26px;
-       line-height: 1,19;
+       line-height: 1.19;
      }
-     .addres-link{
-       color: var(--primary-text-color);
-       font-family: 'Roboto';
-       font-style: normal;
+     .addres-footer{
+       color: #FFFFFF;
        font-weight: 400;
        font-size: 14px;
-       line-height: 1,71;
+       line-height: 24px;
      }
-      
-      .mail-link{
-        color: var(--primary-text-color);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+      .mail-footer{
+        color:rgba(255, 255, 255, 0.6); ;
         font-size: 14px;
-        line-height: 1,71;
-      }
-     .contact-link{
-       color: var(--primary-text-color);
-       font-family: 'Roboto';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 14px;
-       line-height: 1,71;
-     }
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+       .mail-footer{
+         color: rgba(255, 255, 255, 0.6);
+         font-size: 14px;
+         line-height: 24px;
+       }
+      .phone-footer{
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        line-height: 24px; }
+
+       
+
+      
+     
  
-    /* белый цвет текста #FFFFFF */
-      /* вторичный цвет текста rgba(117, 117, 117, 1) */
-          /* цвет кнопок rgba(33, 33, 33, 1) */
-           /* акцент #2196F3;*/
-         /* цвет оглавления #212121;*/
-         /* контакты #757575 */ 
-         /* цвет контактов rgba(255, 255, 255, 0.6)*/
+  
+       
