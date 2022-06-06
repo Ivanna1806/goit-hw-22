@@ -5,20 +5,17 @@
   --primary-text-color: #FFFFFF; 
   --main-color: #2F303A;
   --whete-color: #FFFFFF;
-  --rgba(255, 255, 255, 0.6);
-  --rgba(255, 255, 255, 0.6);
+  --alfa-light: rgba(255, 255, 255, 0.6);
  
   
   
 }
-
+ button{
+   cursor: pointer;
+ }
  body{
-  font-family : 'Roboto'sans-serif; 
-  background-color: var(--primary-text-color);
-  color: var(--background-color);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-
+  font-family : 'Roboto',sans-serif; 
+  font-size: 18px;
  } 
 
   h1,
@@ -50,7 +47,7 @@
 .link{
   text-decoration: none;
   letter-spacing: 0.03em;
- //color: inherit; 
+  color: inherit; 
 
  }
 
@@ -70,7 +67,7 @@
   }
   .logo{
     color: var(--title-text-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif; 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
